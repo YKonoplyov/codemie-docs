@@ -365,6 +365,7 @@ Configure authentication providers and access control for users and administrato
 | `KEYCLOAK_LOGOUT_URL` | string | `""`      | Keycloak logout endpoint for proper session termination                                                                 |
 | `ADMIN_USER_ID`       | string | `""`      | User ID to automatically grant admin privileges on startup                                                              |
 | `ADMIN_ROLE_NAME`     | string | `"admin"` | Role name identifying administrators in the system                                                                      |
+| `INTERNAL_BIND_KEY`   | string | `""`      | Bind key shared within all FastAPI workers to authenticate users in local mode                                          |
 
 ### User Management Mode
 
